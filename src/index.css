@@ -1,0 +1,72 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.active {
+  color: #e93882 !important;
+}
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.home {
+  background-color: rgb(79, 77, 211);
+  text-align: center;
+  padding: 3rem;
+  color: white;
+  background-image: url("https://fondosmil.co/fondo/65797.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
+  margin: 2rem;
+  gap: 1rem;
+}
+.boton {
+  width: 8rem;
+  margin: 0.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.increment-decrement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-name {
+  border: 5px solid;
+}
+
+.detalle-botonesPrice {
+  margin: 1rem;
+  margin-right: 1rem;
+}
+
+.NotFound{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.Details{
+  display: flex;
+}
+
